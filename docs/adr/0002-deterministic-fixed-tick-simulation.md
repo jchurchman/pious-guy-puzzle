@@ -4,5 +4,5 @@ The game runs in real time on a fixed clock of 20 Ticks per second rather than t
 
 ## Considered Options
 
-- **Turn-based** (world moves only when the Priest moves): simpler and more forgiving, but plays like a different genre.
+- **Turn-based** (world moves only when the Guy moves): simpler and more forgiving, but plays like a different genre.
 - **Variable-timestep game loop**: common in engines, but non-deterministic and hard to test.

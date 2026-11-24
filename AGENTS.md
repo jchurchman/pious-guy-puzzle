@@ -1,8 +1,9 @@
 # Pious Guy Puzzle
 
 A real-time, tile-based browser puzzle game whose rules are a homage to the Chip's Challenge
-genre, with an original skin: a priest, the "pious guy", saving his congregation. Plain
-TypeScript and canvas, no game engine, no framework.
+genre, with an original skin: a guy who has had a rough life, seeking answers and enlightenment,
+in a universal theme that points to no specific religion. Plain TypeScript and canvas, no game
+engine, no framework.
 
 ## Read before you start
 
@@ -10,7 +11,7 @@ Read only the docs that match your task.
 
 | If the task involves…                                     | Read                                                             |
 | --------------------------------------------------------- | ---------------------------------------------------------------- |
-| Game terms (Level, Tile, Tick, Priest, Gate, Level Code…) | [GLOSSARY.md](GLOSSARY.md)                                       |
+| Game terms (Level, Tile, Tick, Guy, Gate, Level Code…)    | [GLOSSARY.md](GLOSSARY.md)                                       |
 | Why the game is built the way it is                       | [docs/adr/](docs/adr/)                                           |
 | Folder layout and stack                                   | [docs/project-structure.md](docs/project-structure.md)           |
 | Setup, running, building                                  | [docs/development.md](docs/development.md)                       |
