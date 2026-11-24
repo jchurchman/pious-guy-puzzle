@@ -18,8 +18,8 @@
 - ESLint enforces `complexity` (max 10), `max-depth` (max 3), and `no-nested-ternary`. Fix a
   violation by extracting a named function or returning early, not by disabling the rule.
 - Do not use index barrel files. Import the file that defines what you need.
-- Imports from another folder go through the `@/` alias for `src`, e.g. `@/rules/game`. Only
-  same-folder imports are relative (`./tiles`); ESLint rejects `../` and `src/` imports.
+- Imports are either same-folder (`./tiles`) or absolute from the repository root
+  (`src/rules/game`), never `../` and never through an alias such as `@/`. ESLint rejects both.
 - Colocate code with its only consumer. Move it to a shared location (`types/`, `utils/`) only
   once a second consumer needs it.
 
