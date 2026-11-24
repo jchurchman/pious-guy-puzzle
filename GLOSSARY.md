@@ -41,7 +41,7 @@ A Player setting that chooses how time works in every Level: **Casual** (elapsed
 _Avoid_: Difficulty, game mode
 
 **Time Limit**:
-The authored amount of time a Level allows in Countdown mode. Running out of it is a Death.
+The amount of time a Level allows in Countdown mode: 999 seconds unless the Level sets its own. Running out of it is a Death.
 _Avoid_: Par, deadline
 
 **Started**:
